@@ -1,6 +1,8 @@
 # Compiled class file
 *.class
-
+*.g4
+*.interp
+*.tokens
 # Log file
 *.log
 
