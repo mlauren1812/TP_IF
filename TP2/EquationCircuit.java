@@ -15,6 +15,10 @@ public class EquationCircuit extends Circuit {
         outputs=new LinkedHashMap<String,Vanne>();
     }
 
+    public EquationCircuit(String nom) {
+        super(nom);
+    }
+
     /** Adds an input for each name in list 'names'. */
     public void setInputs(List<String> names) {
         for(String n:names) {

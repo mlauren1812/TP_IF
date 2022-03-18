@@ -9,7 +9,7 @@ public abstract class Composant implements Comparable<Composant>, Serializable{
 	}
 	
 	public String description() {
-		return this.getId();
+		return this.getId() + " ";
 	}
 
 	public abstract boolean getEtat() throws NonConnectedException;

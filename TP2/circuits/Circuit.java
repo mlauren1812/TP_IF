@@ -21,6 +21,11 @@ public class Circuit {
 		Collections.sort(this.composants);
 	}
 
+	public Circuit(String nom)
+	{
+		this.nom = nom;
+	}
+
 	public Circuit() {}
 
 	public void addComposant(Composant c)

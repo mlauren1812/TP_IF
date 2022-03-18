@@ -1,4 +1,4 @@
-// Generated from CircuitParser.g4 by ANTLR 4.9
+// Generated from /home/maxence/Documents/S8/TP_IF/TP2/CircuitParser.g4 by ANTLR 4.8
 
 	import circuits.*;
 
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class CircuitParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.9", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.8", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -112,14 +112,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_prog; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterProg(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitProg(this);
-		}
 	}
 
 	public final ProgContext prog() throws RecognitionException {
@@ -174,14 +166,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_circuit; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterCircuit(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitCircuit(this);
-		}
 	}
 
 	public final CircuitContext circuit() throws RecognitionException {
@@ -242,14 +226,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_liste_bool; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterListe_bool(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitListe_bool(this);
-		}
 	}
 
 	public final Liste_boolContext liste_bool() throws RecognitionException {
@@ -306,14 +282,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bool; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterBool(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitBool(this);
-		}
 	}
 
 	public final BoolContext bool() throws RecognitionException {
@@ -367,14 +335,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_liste_identifiant; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterListe_identifiant(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitListe_identifiant(this);
-		}
 	}
 
 	public final Liste_identifiantContext liste_identifiant() throws RecognitionException {
@@ -434,14 +394,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_equations; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterEquations(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitEquations(this);
-		}
 	}
 
 	public final EquationsContext equations() throws RecognitionException {
@@ -493,14 +445,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_equation; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterEquation(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitEquation(this);
-		}
 	}
 
 	public final EquationContext equation() throws RecognitionException {
@@ -555,14 +499,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_expr; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterExpr(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitExpr(this);
-		}
 	}
 
 	public final ExprContext expr() throws RecognitionException {
@@ -686,14 +622,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_commandes; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterCommandes(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitCommandes(this);
-		}
 	}
 
 	public final CommandesContext commandes() throws RecognitionException {
@@ -745,14 +673,6 @@ public class CircuitParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_commande; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).enterCommande(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CircuitParserListener ) ((CircuitParserListener)listener).exitCommande(this);
-		}
 	}
 
 	public final CommandeContext commande() throws RecognitionException {
